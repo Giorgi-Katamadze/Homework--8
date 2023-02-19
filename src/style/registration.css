@@ -1,0 +1,47 @@
+body {
+  background-image: url(../img/bg2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  padding: 40px;
+}
+
+form {
+  background-color: black;
+  opacity: 70%;
+  border-radius: 8px;
+}
+
+button {
+  text-decoration: none;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid;
+  color: white;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(73, 73, 213);
+  box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+  -moz-box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}

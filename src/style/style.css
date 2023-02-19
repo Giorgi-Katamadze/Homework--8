@@ -1,0 +1,60 @@
+body{
+    background-image: url("../img/bg1.webp") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* color: white; */
+
+}
+section{
+  background-color: black;
+  opacity: 80%;
+  margin-top: 1px;
+  margin-bottom: 100vh;
+}
+.header{
+  height: 100vh;
+}
+.name{
+  -webkit-text-stroke: 2pt #b1b114;
+  font-size: 100px;
+  box-shadow: 0 10px 10px 10px rgb(1, 29, 24);
+  font-family: 'Gajraj One', cursive;
+}
+
+.card-div{
+  opacity: 85%;
+  margin: 100px auto !important;
+}
+
+.button-1, .button-2{
+  text-decoration: none;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.button:active{
+  color: white;
+}
+
+.button-1:hover{
+  background-color: rgb(73, 73, 213);
+  box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+-webkit-box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+-moz-box-shadow: 0px 0px 20px 10px rgba(73, 73, 213);
+  color: white;
+}
+.button-2:hover{
+  background-color: rgb(213, 73, 73);
+  box-shadow: 0px 0px 20px 10px rgba(213, 73, 73);
+-webkit-box-shadow: 0px 0px 20px 10px rgba(213, 73, 73);
+-moz-box-shadow: 0px 0px 20px 10px rgba(7213, 73, 73);
+  color: white;
+}
+
+.button-div{
+  margin: 100px auto;
+}
