@@ -16,8 +16,9 @@ section{
   height: 100vh;
 }
 .name{
+  padding: 6px;
   -webkit-text-stroke: 2pt #b1b114;
-  font-size: 100px;
+  font-size: 10vw;
   box-shadow: 0 10px 10px 10px rgb(1, 29, 24);
   font-family: 'Gajraj One', cursive;
 }
@@ -58,3 +59,4 @@ section{
 .button-div{
   margin: 100px auto;
 }
+
